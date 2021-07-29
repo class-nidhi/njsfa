@@ -1,0 +1,172 @@
+#logo-section{
+    background-color: #02475e;
+    text-align: center;
+}
+
+.logo-img{
+    width: 15%;
+}
+
+@media (max-width:700px){
+    .logo-img{
+        width: 30%;
+    }
+}
+
+.nav-link{
+    font-family: "Montserrat";
+}
+
+/* intro-section */
+.intro-img{
+    max-width: 100%;
+    height: 52rem;
+}
+
+#intro-section{
+    background-color: #02475e;
+}
+
+h1{
+    font-family: "Dancing Script";
+    font-weight: bolder !important;
+    color: aliceblue;
+    font-size: 4.5rem !important;
+}
+
+p{
+    font-family: "Montserrat";
+    font-size: 1rem;
+    color: #8f8f8f;
+}
+
+h2{
+    font-family: "Montserrat";
+}
+
+
+/* about section */
+
+.about-title{
+    background-color: #687980;
+    width: 100%;
+    text-align: left;
+    font-size: 3.5rem;
+}
+
+#about-section{
+    padding-left: 10%;
+}
+
+
+.about-writing{
+    line-height: 2rem;
+    margin-bottom: 1%;
+}
+
+.rectangle{
+    width: 70%;
+    height: 70%;
+    background-color: #f3bda1;
+    position: relative;
+    z-index: -1;
+    bottom: 50%;
+}
+
+.about-img{
+    width: 60%;
+    height: 80%;
+    z-index: 1;
+}
+
+/* courses section */
+#courses{
+    background-color: #02475e;
+}
+
+@media(max-width:1000px){
+    .card{
+        height: 200px !important;
+    }
+}
+
+/* students work */
+.img-fluid{
+    padding: 7% 3% 0px;
+}
+
+hr.dotted {
+    border-top: 3px dotted #bbb;
+}
+ 
+/* testimonials */
+#testimonials{
+    background-color: #02475e;
+    color: #f3bda1;
+}
+
+h4{
+    font-size: 1.5rem !important ;
+    font-family: "Montserrat";
+}
+
+.carousel-item{
+    padding: 3% 5%;
+    text-align: center;
+}
+
+#testimonials{
+    padding: 3% 0 10%;
+}
+
+.carousel-control-prev{
+    padding-right: 10% !important;
+    padding-top: 5% !important;
+}
+
+.carousel-control-next{
+    padding-left: 10% !important;
+    padding-top: 5% !important;
+}
+
+em{
+    color: azure;
+}
+
+/* contact */
+
+#contact{
+    background-color: #f3bda1;
+    padding-top: 3%;
+    padding-bottom: 5%;
+}
+
+.b-example-divider {
+    height: 3rem;
+}    
+
+h5{
+    font-family: "Montserrat";
+    color: aliceblue;
+}
+
+.my-contact{
+    padding-top: 5%;
+    padding-left: 2%;
+}
+
+#footer{
+    text-align: center;
+    padding-top: 10%;
+}
+
+.social-icon{
+    margin: 20px 10px;
+    color: black;
+}
+
+@media(max-width:1250px) {
+    .row{
+    padding-left: 15%;
+    }
+}
